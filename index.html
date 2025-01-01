@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>SkyReview</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+<!--
+
+TemplateMo 586 Scholar
+
+https://templatemo.com/tm-586-scholar
+
+-->
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <h1>SkyReview</h1>
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                      <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                      <li class="scroll-to-section"><a href="#features">Features</a></li>
+                      <li class="scroll-to-section"><a href="#about">About</a></li>
+                      <li class="scroll-to-section"><a href="#contact">Contact Us</a></li>
+                  </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="dashboard" id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="dashboard-container">
+            <iframe title="FYP Dashboard" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNzliNzkwZTEtNjBmZi00NzQ0LThlZDMtMmQ2NjJiYmQ5MjAwIiwidCI6ImNkY2JiMGUyLTlmZWEtNGY1NC04NjcwLTY3MjcwNzc5N2FkYSIsImMiOjEwfQ%3D%3D&pageName=b278ba5b90aa82bc2bb4" frameborder="0" allowFullScreen="true"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section features" id="features">
+    <div class="container">
+      <div class="section-heading">
+          <h2>Features</h2>
+        </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="feature-item">
+              <img src="assets/images/visualization.png" alt="Interactive Visualizations">
+            <div class="main-content">
+              <h4>Interactive Visualizations</h4>
+              <p>Dynamic charts and graphs that respond to user inputs for an engaging and insightful data experience.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="feature-item">
+              <img src="assets/images/filtering.png" alt="Advanced Filtering">
+            <div class="main-content">
+              <h4>Advanced Filtering</h4>
+              <p>Enables precise data exploration through customizable filters, allowing users to focus on specific metrics or categories.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="feature-item">
+              <img src="assets/images/goal.png" alt="High and Low Achievers">
+            <div class="main-content">
+              <h4>High and Low Achievers</h4>
+              <p>Highlights the most positive and negative reviews for analysis of feedback and key improvement areas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section about-us" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-1">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  How does SkyReview analyse sentiment?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  SkyReview uses the <strong>VADER</strong> tool to analyze airline passenger evaluations through sentiment analysis. It performs well for texts containing informal phrases, emoticons, and punctuation. It assigns sentiment values according to positive, negative, and neutral impressions in reviews.                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Why did we choose VADER for sentiment analysis?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  VADER is ideal for texts like social media or customer reviews since it is capable of handling short and often unstructured sentences. It also includes a pre-built lexicon, which saves time and ensures accurate detection of sentiments expressed in customer feedback.                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  How can SkyReview improve airline services?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  By highlighting customer pain points and areas of excellence, SkyReview empowers airlines to make targeted improvements. From enhancing in-flight amenities to streamlining customer service, the insights enable airlines to stay ahead of competitors.                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <div class="section-heading">
+            <h2>About Us</h2>
+            <p>At SkyReview, we have analyzed thousands of reviews from travelers around the world to provide an in-depth look at airline experiences.</p><br>
+            <p>By employing advanced techniques in natural language processing, we have organized the reviews to emphasize patterns, overall customer satisfaction, and areas for improvement.</p><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section fun-facts">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="wrapper">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="counter">
+                  <h2 class="timer count-title count-number" data-to="20000" data-speed="1000"></h2>
+                  <p class="count-text">Airline Reviews</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="counter">
+                  <h2 class="timer count-title count-number" data-to="3000000" data-speed="1000"></h2>
+                  <p class="count-text">Words</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="counter end">
+                  <h2 class="timer count-title count-number" data-to="400" data-speed="1000"></h2>
+                  <p class="count-text">Airlines</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="section topics" id="topics">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="section-heading">
+                    <h2>Related Topics</h2>
+                </div>
+            </div>
+            <div class="topic-container">
+              <div class="col-lg-12 col-md-6">
+                  <div class="item">
+                      <div class="row">
+                          <div class="col-lg-3">
+                              <div class="image">
+                                  <img src="assets/images/topics-1.png" alt="">
+                              </div>
+                          </div>
+                          <div class="col-lg-9">
+                              <h5>Understanding Customer Sentiment through Online Reviews</h5><br>
+                              <p>A detailed look at analyzing customer reviews for top airlines in the Middle East using topic modeling and sentiment analysis.</p><br>
+                              <a href="https://discovery.researcher.life/article/identification-of-opinion-trends-using-sentiment-analysis-of-airlines-passengers-reviews/093a1c6e913236e5a58ff10fbe8e3f93" target="_blank">
+                                  <button class="btn btn-primary">Learn More</button>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="topic-container">
+              <div class="col-lg-12 col-md-6">
+                  <div class="item">
+                      <div class="row">
+                          <div class="col-lg-3">
+                              <div class="image">
+                                  <img src="assets/images/topics-2.png" alt="">
+                              </div>
+                          </div>
+                          <div class="col-lg-9">
+                              <h5>Using Machine Learning for Airline Sentiment Analysis</h5><br>
+                              <p>Learn how machine learning models, such as Naïve Bayes and SVM, are applied to categorize and analyze sentiments from airline customer feedback.</p><br>
+                              <a href="https://journalofbigdata.springeropen.com/articles/10.1186/s40537-019-0224-1" target="_blank">
+                                  <button class="btn btn-primary">Learn More</button>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="topic-container">
+              <div class="col-lg-12 col-md-6">
+                  <div class="item">
+                      <div class="row">
+                          <div class="col-lg-3">
+                              <div class="image">
+                                  <img src="assets/images/topics-3.png" alt="">
+                              </div>
+                          </div>
+                          <div class="col-lg-9">
+                              <h5>Airlines Leverage Social Media for Sentiment Analysis</h5><br>
+                              <p>Explores how airlines use Twitter data for sentiment analysis, highlighting trends and customer feedback to improve services.</p><br>
+                              <a href="https://wjarr.com/sites/default/files/WJARR-2024-2183.pdf" target="_blank">
+                                  <button class="btn btn-primary">Learn More</button>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  
+  <div class="section contact-us" id="contact">
+    <div class="container">
+      <div class="contact-details">
+          <h2>Contact Us</h2>
+            <br>
+            <ul>
+                <li>
+                    <span>📞</span> 
+                    <a href="https://wa.me/601110603508" target="_blank">+601110603508</a>
+                </li>
+                <br>
+                <li>
+                    <span>📧</span> 
+                    <a href="mailto:alyamiera1211@gmail.com">alyamiera1211@gmail.com</a>
+                </li>
+                <br>
+                <li>
+                    <span>📍</span> 
+                    <span>Universiti Teknologi MARA Cawangan Perlis, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kampus Arau, 02600 Arau, Perlis</span>
+                </li>
+            </ul>
+      </div>
+        <div class="contact-image">
+          <iframe src="https://www.google.com/maps/embed/v1/place?q=Universiti%20Teknologi%20MARA%20Cawangan%20Perlis%2C%20Kampus%20Arau%2C%20Perlis&key=AIzaSyB1u73xi-JK50BSsdPEz_XzpLtaqs4dTMs" 
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+  </div>
+
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  </body>
+</html>
