@@ -918,14 +918,16 @@ Contact Style
 }
 
 .contact-us .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr; /* Equal width columns */
-  grid-gap: 20px; /* Gap between columns */
+  width: 100%;
+  max-width: 100%;
+  display: flex;
   background-color: #7a6ad8;
-  padding: 20px; /* Add padding to the container */
+  gap: 20px; /* Add gap between contact details and map */
+  justify-content: center; /* Center horizontally */
 }
 
 .contact-us .contact-details {
+  flex: 1; /* Allow contact details to take available space */
   border-radius: 25px;
   padding: 80px;
   background-color: #7a6ad8;
@@ -934,9 +936,9 @@ Contact Style
 .contact-image iframe {
   width: 100%;
   height: 100%;
-  padding-right: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0; /* Remove margins from iframe */
 }
 
 .contact-details h2 {
@@ -961,6 +963,7 @@ Contact Style
   line-height: 28px;
   margin-left: 10px;
 }
+
 
 /* 
 ---------------------------------------------
