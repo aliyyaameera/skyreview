@@ -895,8 +895,6 @@ Topics Style
   border-radius: 20px;
   width: 220px;
   height: 200px;
-  width: 100%;
-  height: auto;
   margin-left: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -964,8 +962,6 @@ Contact Style
   margin-top: 10px;
   width: 100%;
   max-width: 100%;
-  width: 400px;
-  height: 400px;
 }
 
 .contact-image iframe {
