@@ -91,7 +91,7 @@ p {
 
 img {
   width: 100%;
-  overflow: hidden;
+  height: auto;
 }
 
 /* 
@@ -572,6 +572,8 @@ Header Style
   }
   .header-area .container {
     padding: 0px;
+    width: 100%;
+    max-width: 100%;
   }
   .header-area .logo {
     margin-left: 0px;
@@ -631,8 +633,8 @@ Dashboard Style
 }
 
 .dashboard-container {
-  width: fit-content;
-  max-width: 1200px; 
+  width: 100%;
+  max-width: 100%;
   height: 100vh; 
   border: 2px solid #ddd;
   overflow: hidden;
@@ -672,7 +674,9 @@ Features Style
   border: 1px solid #ddd;
   border-radius: 10px;
   background-color: #ddd;
-  height: 300px; /* Ensures all containers are the same height */
+  width: 100%;
+  max-width: 100%;
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -681,6 +685,8 @@ Features Style
 .feature-item img {
   max-width: 100px; /* Adjust the size of the images */
   max-height: 100px;
+  width: 100%;
+  height: auto;
   margin: 0 auto; /* Centers the image horizontally */
 }
 
@@ -696,6 +702,7 @@ Features Style
 
 .section.features .container {
   max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   padding: 20px;
 }
@@ -871,6 +878,8 @@ Topics Style
   align-items: center;
   flex-wrap: wrap;
   background-color: #ddd;
+  width: 100%;
+  max-width: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
   border-radius: 20px;
@@ -886,6 +895,8 @@ Topics Style
   border-radius: 20px;
   width: 220px;
   height: 200px;
+  width: 100%;
+  height: auto;
   margin-left: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -909,6 +920,8 @@ Contact Style
 }
 
 .contact-us .container {
+  width: 100%;
+  max-width: 100%;
   display: flex;
   background-color: #7a6ad8;
 }
@@ -949,6 +962,8 @@ Contact Style
   justify-content: center;
   align-items: center;
   margin-top: 10px;
+  width: 100%;
+  max-width: 100%;
   width: 400px;
   height: 400px;
 }
@@ -1078,7 +1093,8 @@ body {
   }
   .topics .item .image img {
     position: relative;
-    max-width: 100%;
+    width: 100%;
+    height: auto;
   }
   
   .topics .item a {
