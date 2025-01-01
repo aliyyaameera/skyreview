@@ -878,8 +878,6 @@ Topics Style
   align-items: center;
   flex-wrap: wrap;
   background-color: #ddd;
-  width: 100%;
-  max-width: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
   border-radius: 20px;
@@ -903,6 +901,8 @@ Topics Style
   background-color: #7a6ad8;
   border-radius: 20px;
 }
+
+
 
 /* 
 ---------------------------------------------
