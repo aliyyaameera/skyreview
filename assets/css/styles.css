@@ -911,67 +911,61 @@ Contact Style
 */
 
 .contact-us {
-  margin-top: 80px;
-  position: relative;
-  padding: 30px 0px;
-  background-color: #7a6ad8;
+  padding-top: 20px;
+}
+.contact-us .section-heading {
+  margin-right: 0px;
 }
 
-.contact-us .container {
-  width: 100%;
-  max-width: 100%;
-  display: flex;
-  background-color: #7a6ad8;
+.contact-us .contact-us-content {
+  padding: 30px;
+  margin-left: 100px;
 }
 
-.contact-details h2 {
-  color: white;
-  font-weight: 700;
-  margin-top: 0px;
-  margin-bottom: 10px;
-}
-
-.contact-us .contact-details {
-  border-radius: 25px;
-  padding: 80px;
-  background-color: #7a6ad8;
-}
-
-.contact-details li a {
-  color: #fff;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 28px;
-  margin-left: 10px;
-}
-
-.contact-details li span {
-  color: #fff;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 28px;
-  margin-left: 10px;
-}
-
-
-.contact-us .container .contact-image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-  width: 100%;
-  max-width: 100%;
-}
-
-.contact-image iframe {
+.contact-us .contact-us-content iframe {
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-left: 50px;
-  margin-right: 50px;
 }
+
+.contact-details ul {
+  list-style: none;
+  font-size: 18px;
+  line-height: 2;
+  padding: 0;
+}
+
+.contact-details ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-details ul li span {
+  font-size: 24px;
+  color: white;
+}
+
+.contact-details ul li a {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact-details ul li a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.contact-details ul li:last-child {
+  color: #333;
+}
+
+.contact-details ul li:last-child span {
+  margin-right: 10px;
+}
+
 
 /* 
 ---------------------------------------------
