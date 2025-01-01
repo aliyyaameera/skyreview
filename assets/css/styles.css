@@ -964,17 +964,6 @@ Contact Style
   margin-left: 10px;
 }
 
-
-.contact-us .container .contact-image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-  width: 100%;
-  max-width: 100%;
-}
-
 /* 
 ---------------------------------------------
 Responsive Style
