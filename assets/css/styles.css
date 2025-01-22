@@ -1163,25 +1163,27 @@ body {
     width: 95%;
   }
 
+/* Back to Top Button Styles */
 .back-to-top {
-        position: fixed;
-        bottom: 30px; /* Adjusted for lower-right corner */
-        right: 30px; /* Adjusted for lower-right corner */
-        display: none;
-        background-color: purple; /* Purple color */
-        color: white;
-        border: 2px solid black; /* Black border */
-        border-radius: 50%;
-        width: 70px; /* Bigger button */
-        height: 70px; /* Bigger button */
-        text-align: center;
-        font-size: 24px; /* Larger font size */
-        line-height: 70px; /* Vertically centering the arrow */
-        cursor: pointer;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        z-index: 1000;
-  }
-    .back-to-top:hover {
-        background-color: darkviolet; /* Slightly darker purple on hover */
-  }
+    position: fixed;
+    bottom: 30px; /* Position from the bottom */
+    right: 30px; /* Position from the right */
+    display: none; /* Initially hidden */
+    background-color: purple; /* Purple background */
+    color: white; /* White arrow */
+    border: 2px solid black; /* Black border */
+    border-radius: 50%; /* Circular button */
+    width: 70px; /* Bigger button size */
+    height: 70px; /* Bigger button size */
+    text-align: center; /* Center arrow */
+    font-size: 24px; /* Large arrow size */
+    line-height: 70px; /* Vertically center the arrow */
+    cursor: pointer; /* Pointer cursor */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    z-index: 9999; /* Ensures button is on top of all elements */
+}
+.back-to-top:hover {
+    background-color: darkviolet; /* Darker purple on hover */
+}
+
 }
