@@ -305,7 +305,7 @@ https://templatemo.com/tm-586-scholar
   </div>
 
  <button class="back-to-top" id="backToTop">&#8593;</button>
-  
+
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -315,25 +315,25 @@ https://templatemo.com/tm-586-scholar
   <script src="assets/js/custom.js"></script>
 
   <script>
-        const backToTopButton = document.getElementById('backToTop');
+    const backToTopButton = document.getElementById('backToTop');
 
-        // Show the button when scrolling down
-        window.onscroll = function () {
-            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-                backToTopButton.style.display = 'block';
-            } else {
-                backToTopButton.style.display = 'none';
-            }
-        };
+    // Show the button when scrolling down
+    window.onscroll = function () {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            backToTopButton.style.display = 'block';
+        } else {
+            backToTopButton.style.display = 'none';
+        }
+    };
 
-        // Scroll back to the top when the button is clicked
-        backToTopButton.onclick = function () {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        };
-    </script>
+    // Scroll back to the top when the button is clicked
+    backToTopButton.onclick = function () {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
+</script>
 
   </body>
 </html>
