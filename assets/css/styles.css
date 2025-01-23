@@ -967,6 +967,29 @@ Contact Style
   max-width: 100%;
 }
 
+/* Back to Top Button Styles */
+.back-to-top {
+    position: fixed;
+    bottom: 30px; /* Position from the bottom */
+    right: 30px; /* Position from the right */
+    display: none; /* Initially hidden */
+    background-color: purple; /* Purple background */
+    color: white; /* White arrow */
+    border: 2px solid black; /* Black border */
+    border-radius: 50%; /* Circular button */
+    width: 70px; /* Bigger button size */
+    height: 70px; /* Bigger button size */
+    text-align: center; /* Center arrow */
+    font-size: 24px; /* Large arrow size */
+    line-height: 70px; /* Vertically center the arrow */
+    cursor: pointer; /* Pointer cursor */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    z-index: 9999; /* Ensures button is on top of all elements */
+}
+.back-to-top:hover {
+    background-color: darkviolet; /* Darker purple on hover */
+}
+
 /* 
 ---------------------------------------------
 Responsive Style
@@ -1163,27 +1186,5 @@ body {
     width: 95%;
   }
 
-/* Back to Top Button Styles */
-.back-to-top {
-    position: fixed;
-    bottom: 30px; /* Position from the bottom */
-    right: 30px; /* Position from the right */
-    display: none; /* Initially hidden */
-    background-color: purple; /* Purple background */
-    color: white; /* White arrow */
-    border: 2px solid black; /* Black border */
-    border-radius: 50%; /* Circular button */
-    width: 70px; /* Bigger button size */
-    height: 70px; /* Bigger button size */
-    text-align: center; /* Center arrow */
-    font-size: 24px; /* Large arrow size */
-    line-height: 70px; /* Vertically center the arrow */
-    cursor: pointer; /* Pointer cursor */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    z-index: 9999; /* Ensures button is on top of all elements */
-}
-.back-to-top:hover {
-    background-color: darkviolet; /* Darker purple on hover */
-}
 
 }
