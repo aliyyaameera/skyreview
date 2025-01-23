@@ -973,7 +973,7 @@ Contact Style
     bottom: 30px; /* Position from the bottom */
     right: 30px; /* Position from the right */
     display: none; /* Initially hidden */
-    background-color: purple; /* Purple background */
+    background-color: #7a6ad8; /* Purple background */
     color: white; /* White arrow */
     border: 2px solid black; /* Black border */
     border-radius: 50%; /* Circular button */
