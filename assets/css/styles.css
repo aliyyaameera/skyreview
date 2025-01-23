@@ -987,7 +987,7 @@ Contact Style
     z-index: 9999; /* Ensures button is on top of all elements */
 }
 .back-to-top:hover {
-    background-color: darkviolet; /* Darker purple on hover */
+    background-color:#7a6ad8;
 }
 
 /* 
