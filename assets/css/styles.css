@@ -864,16 +864,16 @@ Topics Style
   overflow: hidden;
 }
 
-.topics .topic-container {
+.topics .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
-  background-color: #ddd;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  border-radius: 20px;
-  margin-bottom: 30px;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.topics .container .topic {
+  flex: 1 1 250px; /* Allows wrapping and sets a base width */
+  max-width: 300px; /* Prevents them from growing too large */
 }
 
 .topics .col-lg-9 {
